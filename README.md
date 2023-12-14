@@ -1,5 +1,5 @@
 # Kompilator prostego języka imperatywnego
-Jest to program, który przekształca kod w języku imperatywnym na kod maszyny wirtualnej. Kompilator został napisany w języku C++ z wykorzystaniem narzędzi Flex oraz Bison. W pliku labor4.pdf znajdują się szczegółowe specyfikacje dotyczące języka i maszyny, a także przykładowy kod. W folderze *Kompilator* znajduje się projekt kompilatora, natomiast w folderze *virtual-machine* znajduje się maszyna wirtualna, która czyta i wykonuje program, który został przetłumaczony przez kompilator.
+Jest to program, który przekształca kod w języku imperatywnym na kod maszyny wirtualnej. Kompilator został napisany w języku C++ z wykorzystaniem narzędzi Flex oraz Bison. W pliku labor4.pdf znajdują się szczegółowe specyfikacje dotyczące języka i maszyny, a także przykładowy kod. W folderze *Compiler* znajduje się projekt kompilatora, natomiast w folderze *virtual-machine* znajduje się maszyna wirtualna, która czyta i wykonuje program, który został przetłumaczony przez kompilator.
 
 # Sposób uruchomienia
 Aby skompilować program należy użyć polecenia `make` w folderze *Kompilator*. Następnie, aby przekształcić kod w języku imperatywnym na kod maszyny wirtualnej należy użyć polecenia `$./kompilator <plik_wejściowy> <plik_wyjściowy>` gdzie 
